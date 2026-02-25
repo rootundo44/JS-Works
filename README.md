@@ -1,1 +1,1 @@
-Це мій репозиторій з домашніми роботами!
+Repository with Homeworks!
