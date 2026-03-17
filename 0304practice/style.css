@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1784px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --main-color: black;
+}
+
+/* ------------ Header ------------ */
+
+.header-wrap {
+    height: 112px;
+    background-color: var(--main-color);
+
+    .logo {
+        font-family: "Jersey 25", sans-serif;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 40px;
+        line-height: 72%;
+        color: #FFFFFF;
+        padding-left: 17px;
+        padding-top: 10px;
+        padding-right: 92px;
+    }
+
+    .header-menu {
+        gap: 79px;
+        padding-top: 45px;
+        padding-right: 738px;
+        font-family: "Jaldi", sans-serif;
+        font-weight: 400;
+        font-style: Bold;
+        font-size: 20px;
+        line-height: 72%;
+
+        a {
+            color: #808080;
+        }
+    }
+
+    .rightdiv {
+        align-items: center;
+        gap: 31px;
+    }
+}
+
+/* ------------ Main ------------- */
+
+.sec1-wrap {
+    height: 939px;
+
+    .secimg1 {
+        width: 562px;
+        height: 656px;
+        margin-top: 228px;
+    }
+
+    .secimg2 {
+        width: 669px;
+        height: 723px;
+        margin-top: 97px;
+    }
+
+    .sec1-box {
+        h1 {
+            font-family: "Jersey 25", sans-serif;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 128px;
+            line-height: 100%;
+            color: #000000;
+            margin-left: 48.76px;
+            margin-top: 175px;
+        }
+
+        .asd {
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 32px;
+            line-height: 100%;
+            color: #000000;
+            margin-top: 42px;
+            margin-left: 63.76px;
+        }
+
+        .watchvideo {
+            width: 231px;
+            height: 78px;
+            background-color: #2D85F3;
+            border-radius: 15px;
+            border: none;
+            margin-left: 213.76px;
+            margin-top: 100px;
+
+            .btnvideo {
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-style: Semi Bold;
+                font-size: 24px;
+                line-height: 100%;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.main-sec2 {
+    height: 1741px;
+    .infodiv1 {
+        .infobox1 {
+            margin-right: 112px;
+            margin-left: 42.24px;
+
+            h3 {
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-style: Semi Bold;
+                font-size: 32px;
+                line-height: 100%;
+                color: #FB4A9D;
+                margin-left: 295px;
+                margin-top: 35px;
+            }
+
+            h2 {
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-style: Semi Bold;
+                font-size: 32px;
+                line-height: 100%;
+                color: #000000;
+                margin-left: 10px;
+                margin-top: 42px;
+            }
+        }
+
+        .infobox2 {
+            h3 {
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-style: Semi Bold;
+                font-size: 32px;
+                line-height: 100%;
+                color: #FB4A9D;
+                margin-left: 295px;
+                margin-top: 35px;
+            }
+
+            h2 {
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-style: Semi Bold;
+                font-size: 32px;
+                line-height: 100%;
+                color: #000000;
+                margin-left: 10px;
+                margin-top: 42px;
+            }
+        }
+    }
+
+    .infodiv2 {
+        margin-top: 39px;
+        .infobox3 {
+            margin-right: 112px;
+            margin-left: 42.24px;
+
+            h3 {
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-style: Semi Bold;
+                font-size: 32px;
+                line-height: 100%;
+                color: #FB4A9D;
+                margin-left: 295px;
+                margin-top: 35px;
+            }
+
+            h2 {
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-style: Semi Bold;
+                font-size: 32px;
+                line-height: 100%;
+                color: #000000;
+                margin-left: 10px;
+                margin-top: 42px;
+            }
+        }
+
+        .infobox4 {
+            h3 {
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-style: Semi Bold;
+                font-size: 32px;
+                line-height: 100%;
+                color: #FB4A9D;
+                margin-left: 295px;
+                margin-top: 35px;
+            }
+
+            h2 {
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-style: Semi Bold;
+                font-size: 32px;
+                line-height: 100%;
+                color: #000000;
+                margin-left: 10px;
+                margin-top: 42px;
+            }
+        }
+    }
+}
+
+.main-sec3{
+    width: 100%;
+    height: 373px;
+    background-image: url(./img/bg1.png);
+    img{
+        margin-left: 330px;
+    }
+    .divgames{
+        h3{
+            font-family: "Inter", sans-serif;
+            font-weight: 800;
+            font-style: Extra Bold;
+            font-size: 32px;
+            line-height: 100%;
+            color: #FFFFFF;
+            margin-left: 587px;
+            margin-top: 105px;
+        }
+        .seegames{
+            width: 94px;
+            height: 41px;
+            border: none;
+            border-radius: 10px;
+            background-color: #FFFFFF;
+            margin-left: 595px;
+            margin-top: 81px;
+            .btn24{
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-style: Semi Bold;
+                font-size: 12px;
+                line-height: 100%;
+                color: #000000;
+            }
+        }
+    }
+}
+
+.main-sec4{
+    height: 370px;
+    background-color: #1F7AEB;
+    img{
+        margin-left: 440px;
+    }
+    .divcareers{
+        margin-left: 157px;
+        margin-top: 72px;
+        h3{
+            font-family: "Inter", sans-serif;
+            font-weight: 800;
+            font-style: Extra Bold;
+            font-size: 32px;
+            line-height: 100%;
+            color: #FFFFFF;
+        }
+        h4{
+            margin-top: 17px;
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-style: Regular;
+            font-size: 15px;
+            line-height: 100%;
+            color: #FFFFFF;
+            .span12{
+                text-decoration: underline;
+            }
+        }
+        .seecareers{
+            width: 94px;
+            height: 41px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            border: none;
+            margin-top: 21px;
+            .btn35{
+                font-family: "Inter", sans-serif;
+                font-weight: 600;
+                font-style: Semi Bold;
+                font-size: 11px;
+                line-height: 100%;
+                color: #000000;
+            }
+        }
+    }
+}
+
+/* ------------ Footer ------------ */
+.footer-wrap{
+    height: 301px;
+    background-color: #000000;
+    padding-left: 115px;
+    h5{
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 12px;
+        line-height: 100%;
+        color: #FFFFFF;
+        padding-top: 50px;
+    }
+    .socials{
+        .socialsimg1{
+            align-items: center;
+            padding-top: 3px;
+            padding-right: 970px;
+        }
+        .socialsimg2{
+            img{
+                margin-right: 10px;
+            }
+        }
+    }
+    .line{
+        width: 1550px;
+        height: 1px;
+        background-color: #808080;
+        margin-top: 34px;
+        margin-bottom: 26px;
+    }
+    .footer-menu{
+        gap: 19px;
+        .footer-items{
+            font-family: "Inter", sans-serif;
+            font-weight: 500;
+            font-style: Medium;
+            font-size: 12px;
+            line-height: 100%;
+            a{
+                color: #FFFFFF;
+                text-decoration: underline;
+            }
+        }
+    }
+    p{
+        margin-top: 24px;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 11px;
+        line-height: 100%;
+        color: #808080;
+    }
+}
