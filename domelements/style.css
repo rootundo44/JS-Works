@@ -1,0 +1,80 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#sizebtn {
+    margin: 10px;
+    width: 125px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+#clearbtn {
+    margin: 10px;
+    width: 125px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(96, 105, 81);
+    cursor: pointer;
+}
+
+#randomclr {
+    margin: 10px;
+    width: 125px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(87, 110, 51);
+    cursor: pointer;
+}
+
+#newsbtn {
+    margin: 10px;
+    width: 125px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(103, 163, 6);
+    cursor: pointer;
+}
+
+#fotka {
+    width: 250px;
+    height: 250px;
+}
+
+.none {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.boxchild {
+    .info {
+        cursor: pointer;
+    }
+
+    .textik {
+        margin-left: 50px;
+    }
+
+    button {
+        margin-top: 200px;
+        margin-left: 500px;
+    }
+
+    .karkinka {
+        img {
+            width: 200px;
+            height: 150px;
+        }
+    }
+}
