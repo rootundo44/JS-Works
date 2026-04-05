@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+
+    p {
+        margin-top: 15px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        font-style: Bold;
+        line-height: 130%;
+    }
+}
+
+.darktheme {
+    background-color: black;
+    color: white;
+}
+
+.task1 {
+    button {
+        width: 200px;
+        height: 50px;
+        margin: 25px;
+        border-radius: 15px;
+        background-color: aqua;
+        cursor: pointer;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        font-style: Bold;
+        line-height: 130%;
+    }
+
+    h2 {
+        margin-top: 25px;
+        margin-left: 25px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        font-style: Bold;
+        line-height: 130%;
+    }
+}
+
+.task2 {
+    height: 360px;
+    width: 550px;
+
+    h2 {
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        font-style: Bold;
+        line-height: 130%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            width: 225px;
+            margin-left: 160px;
+            margin-top: 25px;
+            height: 30px;
+            border-radius: 15px;
+            padding: 15px;
+        }
+    }
+
+    button {
+        width: 150px;
+        height: 40px;
+        margin-left: 197px;
+        margin-top: 15px;
+        background-color: #5194e6;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        font-style: Bold;
+        line-height: 130%;
+        color: #FFFDFD;
+    }
+
+}
+
+.task3 {
+    h2 {
+        margin-top: 25px;
+        margin-left: 25px;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        font-style: Bold;
+        line-height: 130%;
+    }
+
+    input {
+        margin: 25px;
+        width: 220px;
+        height: 35px;
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+    button {
+        width: 150px;
+        height: 40px;
+        background-color: #5194e6;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        font-family: "Inter", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        font-style: Bold;
+        line-height: 130%;
+        color: #FFFDFD;
+    }
+}
+
+.task4 {
+    font-family: Arial;
+    padding: 20px;
+
+    button {
+        padding: 15px 30px;
+        font-size: 18px;
+        cursor: pointer;
+        margin: 5px;
+    }
+    h2{
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 18px;
+    }
+}
