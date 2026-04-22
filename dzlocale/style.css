@@ -1,0 +1,48 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.task1 {
+    h2 {
+        font-style: Bold;
+    }
+
+    input {
+        width: 200px;
+        height: 25px;
+        border-radius: 15px;
+        border: 1px solid;
+        padding: 10px;
+    }
+}
+
+.task3 {
+    button {
+        width: 150px;
+        height: 50px;
+        background-color: aqua;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+}
+
+.task4 {
+    button {
+        width: 150px;
+        height: 50px;
+        background-color: aqua;
+        border-radius: 15px;
+        margin-left: 25px;
+        cursor: pointer;
+    }
+
+    input {
+        width: 200px;
+        height: 25px;
+        border-radius: 15px;
+        border: 1px solid;
+        padding: 10px;
+    }
+}
